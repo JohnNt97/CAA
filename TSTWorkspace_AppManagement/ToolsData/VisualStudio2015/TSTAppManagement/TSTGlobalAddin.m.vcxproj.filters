@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{1e4aaca4-a3fb-4957-88f3-9e7c2de65504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\resources">
+      <UniqueIdentifier>{834679ec-7ed1-425f-a570-38e0de60cf7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\resources\ApplicationFrame">
+      <UniqueIdentifier>{9a3cb9a0-4ffa-4107-932f-23ecec033950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\resources\ApplicationFrame\AfrWorkshop">
+      <UniqueIdentifier>{e5c8a6db-7dc0-4a82-8959-d90f89385b43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\resources\ApplicationFrame\AfrWorkshop\Global">
+      <UniqueIdentifier>{b77cfeb1-a39b-49bd-ae2b-1d4fb00d0c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\resources\ApplicationFrame\AfrWorkshop\Global\AfrAddin">
+      <UniqueIdentifier>{3d9e4eba-1c04-48f0-9b16-984f229fb3e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\TSTAppManagement\TSTGlobalAddin.m\Imakefile.mk">
+      <Filter>
+      </Filter>
+    </None>
+    <None Include="..\..\..\TSTAppManagement\TSTGlobalAddin.m\src\resources\ApplicationFrame\AfrWorkshop\Global\AfrAddin\TSTGlobalAddinD.afr">
+      <Filter>src\resources\ApplicationFrame\AfrWorkshop\Global\AfrAddin</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8E7BF640-BAD5-411D-821E-1418A00E4488}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\PrivateInterfaces;E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\PrivateGenerated\win_b64;E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\ProtectedInterfaces;E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\ProtectedGenerated\win_b64;E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\PublicInterfaces;E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\PublicGenerated\win_b64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINDOWS_SOURCE;_ALLOW_KEYWORD_MACROS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\PrivateInterfaces;E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\PrivateGenerated\win_b64;E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\ProtectedInterfaces;E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\ProtectedGenerated\win_b64;E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\PublicInterfaces;E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\PublicGenerated\win_b64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINDOWS_SOURCE;_ALLOW_KEYWORD_MACROS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\PrivateInterfaces;E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\PrivateGenerated\win_b64;E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\ProtectedInterfaces;E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\ProtectedGenerated\win_b64;E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\PublicInterfaces;E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\PublicGenerated\win_b64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINDOWS_SOURCE;_ALLOW_KEYWORD_MACROS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\PrivateInterfaces;E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\PrivateGenerated\win_b64;E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\ProtectedInterfaces;E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\ProtectedGenerated\win_b64;E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\PublicInterfaces;E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\PublicGenerated\win_b64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINDOWS_SOURCE;_ALLOW_KEYWORD_MACROS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\TSTAppManagement\CNext\code\dictionary\TSTAppManagement.dico" />
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTAddinCmd1.png" />
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTAddinCmd2.png" />
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTAddinCmd3.png" />
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTAddinCmd4.png" />
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTAddinCmd5.png" />
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTAppCmd1.png" />
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTAppCmd2.png" />
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTAppCmd3.png" />
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTAppCmd4.png" />
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTGlobalCmd1.png" />
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTGlobalCmd2.png" />
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTGlobalCmd3.png" />
+    <None Include="..\..\TSTAppManagement\CNext\resources\msgcatalog\TSTAppD.CATNls" />
+    <None Include="..\..\TSTAppManagement\CNext\resources\msgcatalog\TSTAppWkbHeaderD.CATNls" />
+    <None Include="..\..\TSTAppManagement\CNext\resources\msgcatalog\TSTAppWkbHeaderD.CATRsc" />
+    <None Include="..\..\TSTAppManagement\CNext\resources\msgcatalog\TSTGlobalHeaderD.CATNls" />
+    <None Include="..\..\TSTAppManagement\CNext\resources\msgcatalog\TSTGlobalHeaderD.CATRsc" />
+    <None Include="..\..\TSTAppManagement\CNext\resources\msgcatalog\TSTWksAddinD.CATNls" />
+    <None Include="..\..\TSTAppManagement\CNext\resources\msgcatalog\TSTWksAddinHeaderD.CATNls" />
+    <None Include="..\..\TSTAppManagement\CNext\resources\msgcatalog\TSTWksAddinHeaderD.CATRsc" />
+    <None Include="..\..\TSTAppManagement\IdentityCard\IdentityCard.xml" />
+    <None Include="..\..\TSTAppManagement\IdentityCard\Objects\win_b64\.HeaderTable.file" />
+    <None Include="..\..\TSTAppManagement\IdentityCard\Objects\win_b64\.mkdata.mk" />
+    <None Include="..\..\TSTAppManagement\IdentityCard\Objects\win_b64\.mkdata.mkb" />
+    <None Include="..\..\TSTAppManagement\IdentityCard\Objects\win_b64\.mkGraphs\mkBSDummyNLS.mkDG" />
+    <None Include="..\..\TSTAppManagement\IdentityCard\Objects\win_b64\.mkGraphs\mkBSHeaderList.mkDG" />
+    <None Include="..\..\TSTAppManagement\IdentityCard\Objects\win_b64\.mkGraphs\mkBSHeaderMap.mkDG" />
+    <None Include="..\..\TSTAppManagement\IdentityCard\Objects\win_b64\.mkGraphs\mkBSHeaderRuler.mkDG" />
+    <None Include="..\..\TSTAppManagement\IdentityCard\Objects\win_b64\.mkGraphs\mkBSIdcardBuild.mkDG" />
+    <None Include="..\..\TSTAppManagement\IdentityCard\Objects\win_b64\.mkHLpath.mk" />
+    <None Include="..\..\TSTAppManagement\IdentityCard\Objects\win_b64\.mkPreqHelpers.mkb" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\TSTAppManagement\ProtectedInterfaces\TSTAppD.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

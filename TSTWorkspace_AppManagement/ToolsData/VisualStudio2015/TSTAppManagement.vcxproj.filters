@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CNext">
+      <UniqueIdentifier>{16da2361-c3e8-4b9b-b486-d45c7817a58f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\code">
+      <UniqueIdentifier>{18e613c6-5a74-492e-9323-12e918aa7ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\code\dictionary">
+      <UniqueIdentifier>{fffed5d6-7abc-43a6-a29b-b22c1d0d979d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources">
+      <UniqueIdentifier>{c293bf3a-951c-4f55-b947-c35003523b58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\ApplicationFrame">
+      <UniqueIdentifier>{b5be9526-654a-44ea-8606-cb2c5fe9864e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\ApplicationFrame\AfrWorkshop">
+      <UniqueIdentifier>{bdc11dfa-9ecd-4526-a0d0-b7721d6818fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\ApplicationFrame\AfrWorkshop\Global">
+      <UniqueIdentifier>{d7b05180-83a5-42c0-868a-48e23b5eb519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\ApplicationFrame\AfrWorkshop\Global\AfrAddin">
+      <UniqueIdentifier>{975d5069-67c5-4278-bb60-b5f38691aa03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\graphic">
+      <UniqueIdentifier>{2e1b06a6-f60a-411c-837c-db83dcd65a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\graphic\icons">
+      <UniqueIdentifier>{8cebe31a-7d8a-485c-81df-fbd9b1be0299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\msgcatalog">
+      <UniqueIdentifier>{c350d884-5a56-415a-965c-ff900b471a76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IdentityCard">
+      <UniqueIdentifier>{c22499b6-53b2-475f-8b36-26ae2e5ccd71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IdentityCard\Objects">
+      <UniqueIdentifier>{efe9c846-db98-41c8-8330-412c1c6f05e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IdentityCard\Objects\win_b64">
+      <UniqueIdentifier>{48c9c601-8ccc-41a8-9ba7-3e645766687f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IdentityCard\Objects\win_b64\.mkGraphs">
+      <UniqueIdentifier>{8088b8ef-86ee-4537-8e01-40540bac6ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateInterfaces">
+      <UniqueIdentifier>{b5dfdd6c-eac8-47e3-aa3b-9b5e1e58cb8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtectedInterfaces">
+      <UniqueIdentifier>{26f00995-d315-4fae-b83e-2522a62b0eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PublicInterfaces">
+      <UniqueIdentifier>{14cad38c-86fb-49c5-8bc1-4c694d2bd3a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\TSTAppManagement\ProtectedInterfaces\TSTAppD.h">
+      <Filter>ProtectedInterfaces</Filter>
+    </ClInclude>
+    <None Include="..\..\TSTAppManagement\CNext\code\dictionary\TSTAppManagement.dico">
+      <Filter>CNext\code\dictionary</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTAddinCmd1.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTAddinCmd2.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTAddinCmd3.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTAddinCmd4.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTAddinCmd5.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTAppCmd1.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTAppCmd2.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTAppCmd3.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTAppCmd4.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTGlobalCmd1.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTGlobalCmd2.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\CNext\resources\graphic\icons\I_TSTGlobalCmd3.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\CNext\resources\msgcatalog\TSTAppD.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\CNext\resources\msgcatalog\TSTAppWkbHeaderD.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\CNext\resources\msgcatalog\TSTAppWkbHeaderD.CATRsc">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\CNext\resources\msgcatalog\TSTGlobalHeaderD.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\CNext\resources\msgcatalog\TSTGlobalHeaderD.CATRsc">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\CNext\resources\msgcatalog\TSTWksAddinD.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\CNext\resources\msgcatalog\TSTWksAddinHeaderD.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\CNext\resources\msgcatalog\TSTWksAddinHeaderD.CATRsc">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\IdentityCard\IdentityCard.xml">
+      <Filter>IdentityCard</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\IdentityCard\Objects\win_b64\.HeaderTable.file">
+      <Filter>IdentityCard\Objects\win_b64</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\IdentityCard\Objects\win_b64\.mkdata.mk">
+      <Filter>IdentityCard\Objects\win_b64</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\IdentityCard\Objects\win_b64\.mkdata.mkb">
+      <Filter>IdentityCard\Objects\win_b64</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\IdentityCard\Objects\win_b64\.mkGraphs\mkBSDummyNLS.mkDG">
+      <Filter>IdentityCard\Objects\win_b64\.mkGraphs</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\IdentityCard\Objects\win_b64\.mkGraphs\mkBSHeaderList.mkDG">
+      <Filter>IdentityCard\Objects\win_b64\.mkGraphs</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\IdentityCard\Objects\win_b64\.mkGraphs\mkBSHeaderMap.mkDG">
+      <Filter>IdentityCard\Objects\win_b64\.mkGraphs</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\IdentityCard\Objects\win_b64\.mkGraphs\mkBSHeaderRuler.mkDG">
+      <Filter>IdentityCard\Objects\win_b64\.mkGraphs</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\IdentityCard\Objects\win_b64\.mkGraphs\mkBSIdcardBuild.mkDG">
+      <Filter>IdentityCard\Objects\win_b64\.mkGraphs</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\IdentityCard\Objects\win_b64\.mkHLpath.mk">
+      <Filter>IdentityCard\Objects\win_b64</Filter>
+    </None>
+    <None Include="..\..\TSTAppManagement\IdentityCard\Objects\win_b64\.mkPreqHelpers.mkb">
+      <Filter>IdentityCard\Objects\win_b64</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{7f9b229c-9c8d-437f-897f-088ae03b9fec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\resources">
+      <UniqueIdentifier>{0bbc2e31-4bb9-41c1-bad7-f6fcee3c43c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\resources\ApplicationFrame">
+      <UniqueIdentifier>{97f584ba-53a2-4f4c-b2b8-223220bc7a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\resources\ApplicationFrame\AfrWorkshop">
+      <UniqueIdentifier>{78df70c2-1240-4f1d-a2ff-946261a6b22c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\resources\ApplicationFrame\AfrWorkshop\PRDWorkshop">
+      <UniqueIdentifier>{11366a4b-85b0-4e43-9c48-6ce0e70e3900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\resources\ApplicationFrame\AfrWorkshop\PRDWorkshop\AfrWorkbench">
+      <UniqueIdentifier>{48995217-0422-4109-ae6d-7775c60bc8cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\resources\ApplicationFrame\AfrWorkshop\PRDWorkshop\AfrWorkbench\TSTAppD">
+      <UniqueIdentifier>{1c37da49-17f6-4dae-b45c-e0c0356732f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\resources\ApplicationFrame\AfrWorkshop\PRDWorkshop\AfrWorkbench\TSTAppD\AfrAddin">
+      <UniqueIdentifier>{3b90c57f-04ad-4432-a5d4-52c7d92d5fcd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\TSTAppManagement\TSTAppD.m\Imakefile.mk">
+      <Filter>
+      </Filter>
+    </None>
+    <None Include="..\..\..\TSTAppManagement\TSTAppD.m\src\resources\ApplicationFrame\AfrWorkshop\PRDWorkshop\AfrWorkbench\TSTAppD\TSTAppD.afr">
+      <Filter>src\resources\ApplicationFrame\AfrWorkshop\PRDWorkshop\AfrWorkbench\TSTAppD</Filter>
+    </None>
+  </ItemGroup>
+</Project>

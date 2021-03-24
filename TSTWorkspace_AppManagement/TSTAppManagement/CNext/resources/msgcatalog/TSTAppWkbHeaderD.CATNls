@@ -1,0 +1,25 @@
+TSTAppWkbHeaderD.TSTAppCmd1.Title     = "MyApp Command1";
+TSTAppWkbHeaderD.TSTAppCmd1.Help      = "MyApp Command1 Help";
+TSTAppWkbHeaderD.TSTAppCmd1.ShortHelp = "MyApp Command1 Short Help";
+TSTAppWkbHeaderD.TSTAppCmd1.LongHelp  = "MyApp Command1 Long Help";
+
+TSTAppWkbHeaderD.TSTAppCmd2.Title     = "MyApp Command2";
+TSTAppWkbHeaderD.TSTAppCmd2.Help      = "MyApp Command2 Help";
+TSTAppWkbHeaderD.TSTAppCmd2.ShortHelp = "MyApp Command2 Short Help";
+TSTAppWkbHeaderD.TSTAppCmd2.LongHelp  = "MyApp Command2 Long Help";
+
+TSTAppWkbHeaderD.TSTAppCmd3.Title     = "MyApp Command3";
+TSTAppWkbHeaderD.TSTAppCmd3.Help      = "MyApp Command3 Help";
+TSTAppWkbHeaderD.TSTAppCmd3.ShortHelp = "MyApp Command3 Short Help";
+TSTAppWkbHeaderD.TSTAppCmd3.LongHelp  = "MyApp Command3 Long Help";
+
+TSTAppWkbHeaderD.TSTAppCmd4.Title     = "MyApp Command4";
+TSTAppWkbHeaderD.TSTAppCmd4.Help      = "MyApp Command4 Help";
+TSTAppWkbHeaderD.TSTAppCmd4.ShortHelp = "MyApp Command4 Short Help";
+TSTAppWkbHeaderD.TSTAppCmd4.LongHelp  = "MyApp Command4 Long Help";
+
+
+TSTAppWkbHeaderD.PLMDnDReorder.Title     = "Reusing PLMDnDReorder";
+TSTAppWkbHeaderD.PLMDnDReorder.Help      = "PLMDnDReorder Help";
+TSTAppWkbHeaderD.PLMDnDReorder.ShortHelp = "PLMDnDReorder Short Help";
+TSTAppWkbHeaderD.PLMDnDReorder.LongHelp  = "PLMDnDReorder Long Help";

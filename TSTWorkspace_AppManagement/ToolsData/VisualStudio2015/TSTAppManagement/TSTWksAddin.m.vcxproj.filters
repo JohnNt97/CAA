@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{77f31a2e-07fe-4586-9c69-eeaf060ae5af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\resources">
+      <UniqueIdentifier>{6159d638-4f29-42ec-9cbc-c90f11fecaad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\resources\ApplicationFrame">
+      <UniqueIdentifier>{1cdb3b6d-75a6-4158-b1b1-46a2e3a1c771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\resources\ApplicationFrame\AfrWorkshop">
+      <UniqueIdentifier>{18030c1a-bc7c-45b4-9c90-6cc7b864b6b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\resources\ApplicationFrame\AfrWorkshop\PRDWorkshop">
+      <UniqueIdentifier>{5ee686d1-25c2-4abe-969e-1b1b7eada84f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\resources\ApplicationFrame\AfrWorkshop\PRDWorkshop\AfrAddin">
+      <UniqueIdentifier>{03c78f17-4a42-47e2-b7e7-588c839297ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\TSTAppManagement\TSTWksAddin.m\Imakefile.mk">
+      <Filter>
+      </Filter>
+    </None>
+    <None Include="..\..\..\TSTAppManagement\TSTWksAddin.m\src\resources\ApplicationFrame\AfrWorkshop\PRDWorkshop\AfrAddin\TSTWksAddinD.afr">
+      <Filter>src\resources\ApplicationFrame\AfrWorkshop\PRDWorkshop\AfrAddin</Filter>
+    </None>
+  </ItemGroup>
+</Project>

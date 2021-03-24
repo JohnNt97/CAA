@@ -1,0 +1,6 @@
+E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\PrivateInterfaces
+E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\PrivateGenerated\win_b64
+E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\ProtectedInterfaces
+E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\ProtectedGenerated\win_b64
+E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\PublicInterfaces
+E:\WorkingFile\CAA\APP_Creation\TSTWorkspace_AppManagement\.\TSTAppManagement\PublicGenerated\win_b64

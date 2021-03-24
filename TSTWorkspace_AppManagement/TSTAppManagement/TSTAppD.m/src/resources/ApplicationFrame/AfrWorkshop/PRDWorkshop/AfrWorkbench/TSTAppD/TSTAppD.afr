@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Styles xmlns:syp = "http://www.3ds.com/xsd/SYP">
+
+
+   <Template syp:name = "TSTAppDInterface" Target = "CATCmdInterface">
+      <!-- Define here the interface to extend your app -->
+      <CATCmdInterface />
+   </Template>
+
+   <Template syp:name = "TSTAppDHeaders" Target = "CATCmdHeadersList">
+      <!-- Define here the command headers of your app -->
+      <CATCmdHeadersList>
+         <CATCommandHeader 
+            ID = "TSTAppCmd1" ClassName = "TSTAppCmd1Hdr" SharedLibraryName = "TSTModule"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+         <CATCommandHeader
+            ID = "TSTAppCmd2" ClassName = "TSTAppCmd2Hdr" SharedLibraryName = "TSTModule"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+         <CATCommandHeader
+            ID = "TSTAppCmd3" ClassName = "TSTAppCmd3Hdr" SharedLibraryName = "TSTModule"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+         <CATCommandHeader
+            ID = "TSTAppCmd4" ClassName = "TSTAppCmd4Hdr" SharedLibraryName = "TSTModule"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+         <!-- Re-use existing command (c: application frame structure exposition)-->
+         <CATCommandHeader
+            ID = "PLMDnDReorder" ClassName = "CATLPCmdDnDReorder" SharedLibraryName = "LPUICommands"  Available = "1"/>
+      </CATCmdHeadersList>
+   </Template>
+
+
+   <Template syp:name = "TSTAppDAccess" Target = "CATCmdWorkbench">
+      <!-- Define here the layout of your commands. -->      
+      <CATCmdWorkbench Name = "TSTAppD" RepresentationType = "AfrActionBar">
+         
+         <!-- Define a Section -->
+         <CATCmdContainer Name = "TSTAppDSection">
+            
+            <!-- Define a Toolbar with commands -->
+            <CATCmdContainer Name = "TSTAppDTlb1">
+               <CATCmdStarter Name = "TSTAppDCmd1Str" Command = "TSTAppCmd1"/>
+            </CATCmdContainer>
+
+            <CATCmdContainer Name = "TSTAppDTlb2">
+               <CATCmdStarter Name = "TSTAppDCmd2Str" Command = "TSTAppCmd2"/>
+               <CATCmdStarter Name = "TSTAppDCmd3Str" Command = "TSTAppCmd3"/>
+            </CATCmdContainer>
+
+            <CATCmdContainer Name = "TSTAppDTlb3">
+               <CATCmdStarter Name = "PLMDnDReorderStr" Command = "PLMDnDReorder"/>
+            </CATCmdContainer>
+
+         </CATCmdContainer>
+
+         <!-- Command available in Tools Section -->
+         <CATCmdContainer Name = "AfrGeneralSection">
+            <!-- Definition of the toolbar -->
+            <CATCmdContainer Name = "TSTAppDToolsTlb1" Visibility ="1">
+               <CATCmdStarter Name = "TSTAppDCmd4Str" Command = "TSTAppCmd4"/>
+            </CATCmdContainer>
+         </CATCmdContainer>
+      </CATCmdWorkbench>
+   </Template>
+   
+</Styles>

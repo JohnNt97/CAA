@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FW_TSTAppManagement", "FW_TSTAppManagement", "{BAEE4AAC-C854-4363-9DA3-5FC12CD92960}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TSTAppManagement", "TSTAppManagement.vcxproj", "{8E7BF640-BAD5-411D-821E-1418A00E4488}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TSTAppD.m", "TSTAppManagement\TSTAppD.m.vcxproj", "{CF149183-2FC7-48A8-BA64-F6989A8B8605}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TSTGlobalAddin.m", "TSTAppManagement\TSTGlobalAddin.m.vcxproj", "{0723A58D-C462-4FC9-95CC-1E6102585DE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E7BF640-BAD5-411D-821E-1418A00E4488}.Debug|x64.ActiveCfg = Debug|x64
+		{8E7BF640-BAD5-411D-821E-1418A00E4488}.Debug|x64.Build.0 = Debug|x64
+		{8E7BF640-BAD5-411D-821E-1418A00E4488}.Debug|x86.ActiveCfg = Debug|Win32
+		{8E7BF640-BAD5-411D-821E-1418A00E4488}.Debug|x86.Build.0 = Debug|Win32
+		{8E7BF640-BAD5-411D-821E-1418A00E4488}.Release|x64.ActiveCfg = Release|x64
+		{8E7BF640-BAD5-411D-821E-1418A00E4488}.Release|x64.Build.0 = Release|x64
+		{8E7BF640-BAD5-411D-821E-1418A00E4488}.Release|x86.ActiveCfg = Release|Win32
+		{8E7BF640-BAD5-411D-821E-1418A00E4488}.Release|x86.Build.0 = Release|Win32
+		{CF149183-2FC7-48A8-BA64-F6989A8B8605}.Debug|x64.ActiveCfg = Debug|x64
+		{CF149183-2FC7-48A8-BA64-F6989A8B8605}.Debug|x64.Build.0 = Debug|x64
+		{CF149183-2FC7-48A8-BA64-F6989A8B8605}.Debug|x86.ActiveCfg = Debug|Win32
+		{CF149183-2FC7-48A8-BA64-F6989A8B8605}.Debug|x86.Build.0 = Debug|Win32
+		{CF149183-2FC7-48A8-BA64-F6989A8B8605}.Release|x64.ActiveCfg = Release|x64
+		{CF149183-2FC7-48A8-BA64-F6989A8B8605}.Release|x64.Build.0 = Release|x64
+		{CF149183-2FC7-48A8-BA64-F6989A8B8605}.Release|x86.ActiveCfg = Release|Win32
+		{CF149183-2FC7-48A8-BA64-F6989A8B8605}.Release|x86.Build.0 = Release|Win32
+		{0723A58D-C462-4FC9-95CC-1E6102585DE3}.Debug|x64.ActiveCfg = Debug|x64
+		{0723A58D-C462-4FC9-95CC-1E6102585DE3}.Debug|x64.Build.0 = Debug|x64
+		{0723A58D-C462-4FC9-95CC-1E6102585DE3}.Debug|x86.ActiveCfg = Debug|Win32
+		{0723A58D-C462-4FC9-95CC-1E6102585DE3}.Debug|x86.Build.0 = Debug|Win32
+		{0723A58D-C462-4FC9-95CC-1E6102585DE3}.Release|x64.ActiveCfg = Release|x64
+		{0723A58D-C462-4FC9-95CC-1E6102585DE3}.Release|x64.Build.0 = Release|x64
+		{0723A58D-C462-4FC9-95CC-1E6102585DE3}.Release|x86.ActiveCfg = Release|Win32
+		{0723A58D-C462-4FC9-95CC-1E6102585DE3}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E7BF640-BAD5-411D-821E-1418A00E4488} = {BAEE4AAC-C854-4363-9DA3-5FC12CD92960}
+		{CF149183-2FC7-48A8-BA64-F6989A8B8605} = {BAEE4AAC-C854-4363-9DA3-5FC12CD92960}
+		{0723A58D-C462-4FC9-95CC-1E6102585DE3} = {BAEE4AAC-C854-4363-9DA3-5FC12CD92960}
+	EndGlobalSection
+EndGlobal

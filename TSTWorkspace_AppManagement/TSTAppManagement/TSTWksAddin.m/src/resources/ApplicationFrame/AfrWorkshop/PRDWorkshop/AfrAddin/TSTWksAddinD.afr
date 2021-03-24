@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Styles xmlns:syp = "http://www.3ds.com/xsd/SYP">
+
+   <Template syp:name = "TSTWksAddinDHeaders" Target = "CATCmdHeadersList">
+      <!-- Define here the command headers of your addin -->
+      <CATCmdHeadersList>
+         <CATCommandHeader
+            ID = "PLMCmdInsertNewFEM" ClassName = "CATPLMCmdInsertNewFEM2" SharedLibraryName = "PLMUICommands" Available = "1"/>        
+         <CATCommandHeader
+            ID = "TSTAddinCmd1" ClassName = "TSTAddinCmd1Hdr" SharedLibraryName = "TSTModule"  ResourceFile = "TSTWksAddinHeaderD"  Available = "1"/>
+         <CATCommandHeader
+            ID = "TSTAddinCmd2" ClassName = "TSTAddinCmd2Hdr" SharedLibraryName = "TSTModule"  ResourceFile = "TSTWksAddinHeaderD"  Available = "1"/>
+         <CATCommandHeader
+            ID = "TSTAddinCmd3" ClassName = "TSTAddinCmd3Hdr" SharedLibraryName = "TSTModule"  ResourceFile = "TSTWksAddinHeaderD"  Available = "1"/>
+         <CATCommandHeader
+            ID = "TSTAddinCmd4" ClassName = "TSTAddinCmd4Hdr" SharedLibraryName = "TSTModule"  ResourceFile = "TSTWksAddinHeaderD"  Available = "1"/>
+         <CATCommandHeader
+            ID = "TSTAddinCmd5" ClassName = "TSTAddinCmd5Hdr" SharedLibraryName = "TSTModule"  ResourceFile = "TSTWksAddinHeaderD"  Available = "1"/>
+      </CATCmdHeadersList> 
+   </Template>
+
+
+   <Template syp:name = "TSTWksAddinDAccess" Target = "CATCmdAddin">
+      <!-- Define here the layout of your commands. -->
+      <CATCmdAddin>
+         <!-- Commands visible in Fixed Area -->         
+         <CATCmdContainer Name = "AfrActionBarFixedSection">            
+            <CATCmdContainer Name = "TSTAddinFixedTlb1" Visibility ="1">
+               <CATCmdStarter Name = "TSTAddinCmd1Str" Command = "TSTAddinCmd1"/>
+            </CATCmdContainer>
+         </CATCmdContainer>
+         <!-- Commands visible in Tools section -->
+         <CATCmdContainer Name = "AfrGeneralSection">
+            <CATCmdContainer Name = "TSTAddinToolsTlb1" Visibility ="1">
+               <CATCmdStarter Name = "TSTAddinCmd2Str" Command = "TSTAddinCmd2"/>
+            </CATCmdContainer>
+         </CATCmdContainer>         
+         <!-- Commands visible in a new section -->
+         <CATCmdContainer Name = "TSTWksDSection">
+            <CATCmdContainer Name = "TSTWksDTlb1">
+               <CATCmdStarter Name = "TSTAddinCmd3Str" Command = "TSTAddinCmd3"/>
+            </CATCmdContainer>
+            <CATCmdContainer Name = "TSTWksDTlb2">
+               <CATCmdStarter Name = "TSTAddinCmd4Str" Command = "TSTAddinCmd4"/>
+               <CATCmdStarter Name = "TSTAddinCmd5Str" Command = "TSTAddinCmd5"/>
+            </CATCmdContainer>
+            <!-- Existing Commands -->
+            <CATCmdContainer Name = "TSTWksDTlb3">
+               <CATCmdStarter Name = "ReuseCmd1Str" Command = "PLMCmdInsertNewFEM"/>            
+            </CATCmdContainer>
+         </CATCmdContainer>         
+      </CATCmdAddin>
+   </Template>
+
+</Styles>
+
+<!--
+         Fixed Area:                AfrActionBarFixedSection
+         General (Tools) section:   AfrGeneralSection
+         View section:              AfrViewSection
+         -->

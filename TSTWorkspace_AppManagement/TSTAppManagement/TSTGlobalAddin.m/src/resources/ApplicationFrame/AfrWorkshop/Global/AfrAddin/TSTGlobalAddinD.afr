@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Styles xmlns:syp = "http://www.3ds.com/xsd/SYP">
+
+   <Template syp:name = "TSTGlobalAddinDHeaders" Target = "CATCmdHeadersList">
+      <!-- Define here the command headers of your app -->
+      <CATCmdHeadersList>
+         <CATCommandHeader
+            ID = "TSTGlobalCmd1" ClassName = "TSTGlobalCmd1Hdr" SharedLibraryName = "TSTModule"  ResourceFile = "TSTGlobalHeaderD"  Available = "1"/>
+         <CATCommandHeader
+            ID = "TSTGlobalCmd2" ClassName = "TSTGlobalCmd2Hdr" SharedLibraryName = "TSTModule"  ResourceFile = "TSTGlobalHeaderD"  Available = "1"/>
+         <CATCommandHeader
+            ID = "TSTGlobalCmd3" ClassName = "TSTGlobalCmd3Hdr" SharedLibraryName = "TSTModule"  ResourceFile = "TSTGlobalHeaderD"  Available = "1"/>
+         <CATCommandHeader
+            ID = "TSTGlobalCmd4" ClassName = "TSTGlobalCmd4Hdr" SharedLibraryName = "TSTModule"  ResourceFile = "TSTGlobalHeaderD"  Available = "1"/>
+      </CATCmdHeadersList>
+   </Template>
+
+
+   <Template syp:name = "TSTGlobalAddinDAccess" Target = "CATCmdAddin">
+      <!-- Define here the layout of your commands. -->
+      <CATCmdAddin>
+         
+         <!-- Commands visible in the Fixed Area -->
+         <CATCmdContainer Name = "AfrActionBarFixedSection">
+            <CATCmdContainer Name = "TSTGlobalAddinDTlb1" Visibility ="1">
+               <CATCmdStarter Name = "TSTGlobalCmd1Str" Command = "TSTGlobalCmd1"/>
+            </CATCmdContainer>
+         </CATCmdContainer>
+         <!-- Commands visible in Tools section -->
+         <CATCmdContainer Name = "AfrGeneralSection">
+            <CATCmdContainer Name = "TSTGlobalAddinDTlb2" Visibility ="1">
+               <CATCmdStarter Name = "TSTGlobalCmd2Str" Command = "TSTGlobalCmd2"/>
+            </CATCmdContainer>
+         </CATCmdContainer>
+         <!-- Commands visible in View section -->
+         <CATCmdContainer Name = "AfrViewSection">
+            <CATCmdContainer Name = "TSTGlobalAddinDTlb3" Visibility ="1">
+               <CATCmdStarter Name = "TSTGlobalCmd3Str" Command = "TSTGlobalCmd3"/>
+            </CATCmdContainer>
+         </CATCmdContainer>
+
+         <CATCmdContainer Name = "CATAfrSignatureMenuBar">
+            <!-- Definition of the menu PLUS-->
+            <CATCmdContainer Name="CATAfrTopBarPlusMenu">
+               <!-- Add here your elements for the menu me -->
+               <CATCmdStarter Name = "TSTGlobalCmd3Str" Command = "TSTGlobalCmd3"/>
+               <!-- Copy the container tree if you want to add in a sub menu of this menu -->
+            </CATCmdContainer>
+         </CATCmdContainer>
+         
+      </CATCmdAddin>
+   </Template>
+
+</Styles>
+
+<!--
+         CATAfrSignatureMenuBar
+         CATAfrTopBarMeMenu
+         CATAfrTopBarPlusMenu
+         ShareContainer
+         CATAfrTopBarHomeMenu
+         CATAfrTopBarHelpMenu
+         -->
+
