@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Styles xmlns:syp = "http://www.3ds.com/xsd/SYP">
+
+
+  <Template syp:name = "TSTAppDInterface" Target = "CATCmdInterface">
+    <!-- Define here the interface to extend your app -->
+    <CATCmdInterface AdnWkbInterface="CAAIMyWkbAddin"/>
+  </Template>
+
+  <Template syp:name = "TSTAppDHeaders" Target = "CATCmdHeadersList">
+    <!-- Define here the command headers of your app -->
+    <CATCmdHeadersList>
+      <CATCommandHeader
+         ID = "TSTAppCmd1" ClassName = "CallEngineeringTemplate0Cmd" SharedLibraryName = "ATOZZMXAEngineeringTemplate0"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd2" ClassName = "TSTAppCmd2Hdr" SharedLibraryName = "TSTModule"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd3" ClassName = "TSTAppCmd3Hdr" SharedLibraryName = "TSTModule"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd4" ClassName = "CallEngineeringTemplate2Cmd" SharedLibraryName = "ATOZZMXAEngineeringTemplate2"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd5" ClassName = "SingleBucketEngTempalteCmd" SharedLibraryName = "SingleBucketEngTempalte"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd6" ClassName = "TSTAppCmd6Hdr" SharedLibraryName = "TSTModule"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd7" ClassName = "TSTAppCmd7Hdr" SharedLibraryName = "TSTModule"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd8" ClassName = "TSTAppCmd8Hdr" SharedLibraryName = "TSTModule"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd9" ClassName = "CallEngineeringTemplate10Cmd" SharedLibraryName = "ATOZZMXAEngineeringTemplate10"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd10" ClassName = "CallPowerCopyFalan3Cmd" SharedLibraryName = "ATOZZMXAPowerCopyFalan3"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd11" ClassName = "CallPowerCopyFalan1Cmd" SharedLibraryName = "ATOZZMXAPowerCopyFalan1"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd12" ClassName = "CallPowerCopyFalan2Cmd" SharedLibraryName = "ATOZZMXAPowerCopyFalan2"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd13" ClassName = "CallPowerCopyXingCmd" SharedLibraryName = "ATOZZMXAPowerCopyXing"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd14" ClassName = "CallPowerCopyCaoCmd" SharedLibraryName = "ATOZZMXAPowerCopyCao"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd15" ClassName = "CallPowerCopyjiaoCmd" SharedLibraryName = "ATOZZMXAPowerCopyjiao"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd16" ClassName = "TSTAppCmd16Hdr" SharedLibraryName = "TSTModule"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd17" ClassName = "CallPowerCopyDanglianCmd" SharedLibraryName = "ATOZZMXAPowerCopyDanglian"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd18" ClassName = "CallPowerCopyTool2Cmd" SharedLibraryName = "ATOZZMXAPowerCopyTool2"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd19" ClassName = "CallPowerCopyLanGanCmd" SharedLibraryName = "ATOZZMXAPowerCopyLanGan"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd20" ClassName = "CallPowerCopyAxisCmd" SharedLibraryName = "ATOZZMXAPowerCopyAxis"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd21" ClassName = "CallEngineeringTemplate9Cmd" SharedLibraryName = "ATOZZMXAEngineeringTemplate9"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd22" ClassName = "CallEngineeringTemplate4Cmd" SharedLibraryName = "ATOZZMXAEngineeringTemplate4"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd23" ClassName = "CallEngineeringTemplate5Cmd" SharedLibraryName = "ATOZZMXAEngineeringTemplate5"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd24" ClassName = "CallEngineeringTemplate7Cmd" SharedLibraryName = "ATOZZMXAEngineeringTemplate7"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd25" ClassName = "CallEngineeringTemplate6Cmd" SharedLibraryName = "ATOZZMXAEngineeringTemplate6"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd26" ClassName = "CallUDFWindowCmd" SharedLibraryName = "ATOZZMXAUDFWindow"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd27" ClassName = "CallEngineeringTemplate3Cmd" SharedLibraryName = "ATOZZMXAEngineeringTemplate3"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd28" ClassName = "ATOZNWHPowerCCmd" SharedLibraryName = "ATOZZMXAPowerCopyZQ"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd29" ClassName = "CallPowerCopyLanGan2Cmd" SharedLibraryName = "ATOZZMXAPowerCopyLanGan2"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd30" ClassName = "CallPowerCopyLanGan2Cmd" SharedLibraryName = "ATOZZMXAPowerCopyLanGan2"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd31" ClassName = "CallPowerCopyLanGan2Cmd" SharedLibraryName = "ATOZZMXAPowerCopyLanGan2"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd32" ClassName = "CallPowerCopySeatCmd" SharedLibraryName = "ATOZZMXAPowerCopySeat"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd33" ClassName = "CallEngineeringTemplate8Cmd" SharedLibraryName = "ATOZZMXAEngineeringTemplate8"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+      <CATCommandHeader
+         ID = "TSTAppCmd34" ClassName = "ATOZReverseAxisCmd" SharedLibraryName = "ATOZReverseAxis"  ResourceFile = "TSTAppWkbHeaderD"  Available = "1"/>
+
+    </CATCmdHeadersList>
+  </Template>
+
+
+  <Template syp:name = "TSTAppDAccess" Target = "CATCmdWorkbench">
+    <!-- Define here the layout of your commands. -->
+    <CATCmdWorkbench Name = "TSTAppD" RepresentationType = "AfrActionBar">
+      <!-- Section 1 非标-->
+      <CATCmdContainer Name = "TSTAppDSection1">
+
+        <!-- Define a Toolbar with commands -->
+        <CATCmdContainer Name = "TSTAppDTlb1">
+
+          <CATCmdContainer Name = "guaban">
+            <CATCmdStarter Name = "TSTAppDCmd1Str" Command = "TSTAppCmd1"/>
+            <CATCmdStarter Name = "TSTAppDCmd2Str" Command = "TSTAppCmd2"/>
+            <CATCmdStarter Name = "TSTAppDCmd3Str" Command = "TSTAppCmd3"/>
+          </CATCmdContainer>
+
+          <CATCmdContainer Name = "pidai">
+            <CATCmdStarter Name = "TSTAppDCmd4Str" Command = "TSTAppCmd4"/>
+            <CATCmdStarter Name = "TSTAppDCmd5Str" Command = "TSTAppCmd5"/>
+            <CATCmdStarter Name = "TSTAppDCmd6Str" Command = "TSTAppCmd6"/>
+            <CATCmdStarter Name = "TSTAppDCmd7Str" Command = "TSTAppCmd7"/>
+            <CATCmdStarter Name = "TSTAppDCmd8Str" Command = "TSTAppCmd8"/>
+          </CATCmdContainer>
+
+          <!--tong-->
+          <CATCmdStarter Name = "TSTAppDCmd9Str" Command = "TSTAppCmd9"/>
+
+
+          <CATCmdContainer Name = "falan">
+            <CATCmdStarter Name = "TSTAppDCmd10Str" Command = "TSTAppCmd10"/>
+            <CATCmdStarter Name = "TSTAppDCmd11Str" Command = "TSTAppCmd11"/>
+            <CATCmdStarter Name = "TSTAppDCmd12Str" Command = "TSTAppCmd12"/>
+          </CATCmdContainer>
+
+          <CATCmdContainer Name = "xinggang">
+            <CATCmdStarter Name = "TSTAppDCmd13Str" Command = "TSTAppCmd13"/>
+            <CATCmdStarter Name = "TSTAppDCmd14Str" Command = "TSTAppCmd14"/>
+            <CATCmdStarter Name = "TSTAppDCmd15Str" Command = "TSTAppCmd15"/>
+          </CATCmdContainer>
+
+          <CATCmdContainer Name = "qita">
+            <CATCmdStarter Name = "TSTAppDCmd16Str" Command = "TSTAppCmd16"/>
+            <CATCmdStarter Name = "TSTAppDCmd32Str" Command = "TSTAppCmd32"/>
+            <CATCmdStarter Name = "TSTAppDCmd17Str" Command = "TSTAppCmd17"/>
+          </CATCmdContainer>
+
+          <CATCmdContainer Name = "pingtai">
+            <CATCmdStarter Name = "TSTAppDCmd18Str" Command = "TSTAppCmd18"/>
+            <CATCmdStarter Name = "TSTAppDCmd19Str" Command = "TSTAppCmd19"/>
+          </CATCmdContainer>
+
+
+        </CATCmdContainer>
+
+      </CATCmdContainer>
+
+      <!-- Section 2 选煤-->
+      <CATCmdContainer Name = "TSTAppDSection2">
+
+        <!-- Define a Toolbar with commands -->
+        <CATCmdContainer Name = "TSTAppDTlb2">
+          <CATCmdStarter Name = "TSTAppDCmd20Str" Command = "TSTAppCmd20"/>
+          <CATCmdStarter Name = "TSTAppDCmd34Str" Command = "TSTAppCmd34"/>
+        </CATCmdContainer>
+
+      </CATCmdContainer>
+
+      <!-- Section 3 建筑-->
+      <CATCmdContainer Name = "TSTAppDSection3">
+
+        <!-- Define a Toolbar with commands -->
+        <CATCmdContainer Name = "TSTAppDTlb3">
+
+          <CATCmdContainer Name = "liang">
+            <CATCmdStarter Name = "TSTAppDCmd21Str" Command = "TSTAppCmd21"/>
+            <CATCmdStarter Name = "TSTAppDCmd22Str" Command = "TSTAppCmd22"/>
+          </CATCmdContainer>
+
+          <!--zhuzi-->
+          <CATCmdStarter Name = "TSTAppDCmd23Str" Command = "TSTAppCmd23"/>
+
+
+          <CATCmdContainer Name = "louti">
+            <CATCmdStarter Name = "TSTAppDCmd33Str" Command = "TSTAppCmd33"/>
+            <CATCmdStarter Name = "TSTAppDCmd24Str" Command = "TSTAppCmd24"/>
+            <CATCmdStarter Name = "TSTAppDCmd25Str" Command = "TSTAppCmd25"/>
+          </CATCmdContainer>
+
+
+          <!--chuang-->
+          <CATCmdStarter Name = "TSTAppDCmd26Str" Command = "TSTAppCmd26"/>
+
+
+          <!--qiang-->
+          <CATCmdStarter Name = "TSTAppDCmd27Str" Command = "TSTAppCmd27"/>
+
+
+          <!--zhanqiao-->
+          <CATCmdStarter Name = "TSTAppDCmd28Str" Command = "TSTAppCmd28"/>
+
+
+          <CATCmdContainer Name = "langan">
+            <CATCmdStarter Name = "TSTAppDCmd29Str" Command = "TSTAppCmd29"/>
+            <CATCmdStarter Name = "TSTAppDCmd30Str" Command = "TSTAppCmd30"/>
+            <CATCmdStarter Name = "TSTAppDCmd31Str" Command = "TSTAppCmd31"/>
+          </CATCmdContainer>
+
+
+        </CATCmdContainer>
+
+      </CATCmdContainer>
+
+    </CATCmdWorkbench>
+  </Template>
+
+</Styles>

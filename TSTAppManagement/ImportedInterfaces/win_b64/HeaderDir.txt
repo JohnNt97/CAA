@@ -1,0 +1,22 @@
+C:\Users\Administrator\Desktop\TSTWorkspace\.\TSTAppManagement\PrivateInterfaces
+C:\Users\Administrator\Desktop\TSTWorkspace\.\TSTAppManagement\PrivateGenerated\win_b64
+C:\Users\Administrator\Desktop\TSTWorkspace\.\TSTAppManagement\ProtectedInterfaces
+C:\Users\Administrator\Desktop\TSTWorkspace\.\TSTAppManagement\ProtectedGenerated\win_b64
+C:\Users\Administrator\Desktop\TSTWorkspace\.\TSTAppManagement\PublicInterfaces
+C:\Users\Administrator\Desktop\TSTWorkspace\.\TSTAppManagement\PublicGenerated\win_b64
+C:\Program Files\Dassault Systemes\B421\.\BSFBuildtimeData\ProtectedInterfaces
+C:\Program Files\Dassault Systemes\B421\.\BSFBuildtimeData\ProtectedGenerated\win_b64
+C:\Program Files\Dassault Systemes\B421\.\BSFBuildtimeData\PublicInterfaces
+C:\Program Files\Dassault Systemes\B421\.\BSFBuildtimeData\PublicGenerated\win_b64
+C:\Program Files\Dassault Systemes\B421\.\System\PublicInterfaces
+C:\Program Files\Dassault Systemes\B421\.\System\PublicGenerated\win_b64
+C:\Program Files\Dassault Systemes\B421\.\SpecialAPI\ProtectedInterfaces
+C:\Program Files\Dassault Systemes\B421\.\SpecialAPI\ProtectedGenerated\win_b64
+C:\Program Files\Dassault Systemes\B421\.\SpecialAPI\PublicInterfaces
+C:\Program Files\Dassault Systemes\B421\.\SpecialAPI\PublicGenerated\win_b64
+C:\Program Files\Dassault Systemes\B421\.\SystemTS\PrivateInterfaces
+C:\Program Files\Dassault Systemes\B421\.\SystemTS\PrivateGenerated\win_b64
+C:\Program Files\Dassault Systemes\B421\.\SystemTS\ProtectedInterfaces
+C:\Program Files\Dassault Systemes\B421\.\SystemTS\ProtectedGenerated\win_b64
+C:\Program Files\Dassault Systemes\B421\.\SystemTS\PublicInterfaces
+C:\Program Files\Dassault Systemes\B421\.\SystemTS\PublicGenerated\win_b64

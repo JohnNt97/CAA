@@ -1,0 +1,14 @@
+TSTGlobalHeaderD.TSTGlobalCmd1.Title     = "MyGlobal Command1";
+TSTGlobalHeaderD.TSTGlobalCmd1.Help      = "MyGlobal Command1 Help";
+TSTGlobalHeaderD.TSTGlobalCmd1.ShortHelp = "MyGlobal Command1 Short Help";
+TSTGlobalHeaderD.TSTGlobalCmd1.LongHelp  = "MyGlobal Command1 Long Help";
+
+TSTGlobalHeaderD.TSTGlobalCmd2.Title     = "MyGlobal Command2";
+TSTGlobalHeaderD.TSTGlobalCmd2.Help      = "MyGlobal Command2 Help";
+TSTGlobalHeaderD.TSTGlobalCmd2.ShortHelp = "MyGlobal Command2 Short Help";
+TSTGlobalHeaderD.TSTGlobalCmd2.LongHelp  = "MyGlobal Command2 Long Help";
+
+TSTGlobalHeaderD.TSTGlobalCmd3.Title     = "MyGlobal Command3";
+TSTGlobalHeaderD.TSTGlobalCmd3.Help      = "MyGlobal Command3 Help";
+TSTGlobalHeaderD.TSTGlobalCmd3.ShortHelp = "MyGlobal Command3 Short Help";
+TSTGlobalHeaderD.TSTGlobalCmd3.LongHelp  = "MyGlobal Command3 Long Help";

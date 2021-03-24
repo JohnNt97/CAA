@@ -1,0 +1,24 @@
+TSTWksAddinHeaderD.TSTAddinCmd1.Title     = "MyAddin Command1";
+TSTWksAddinHeaderD.TSTAddinCmd1.Help      = "MyAddin Command1 Help";
+TSTWksAddinHeaderD.TSTAddinCmd1.ShortHelp = "MyAddin Command1 Short Help";
+TSTWksAddinHeaderD.TSTAddinCmd1.LongHelp  = "MyAddin Command1 Long Help";
+
+TSTWksAddinHeaderD.TSTAddinCmd2.Title     = "MyAddin Command2";
+TSTWksAddinHeaderD.TSTAddinCmd2.Help      = "MyAddin Command2 Help";
+TSTWksAddinHeaderD.TSTAddinCmd2.ShortHelp = "MyAddin Command2 Short Help";
+TSTWksAddinHeaderD.TSTAddinCmd2.LongHelp  = "MyAddin Command2 Long Help";
+
+TSTWksAddinHeaderD.TSTAddinCmd3.Title     = "MyAddin Command3";
+TSTWksAddinHeaderD.TSTAddinCmd3.Help      = "MyAddin Command3 Help";
+TSTWksAddinHeaderD.TSTAddinCmd3.ShortHelp = "MyAddin Command3 Short Help";
+TSTWksAddinHeaderD.TSTAddinCmd3.LongHelp  = "MyAddin Command3 Long Help";
+
+TSTWksAddinHeaderD.TSTAddinCmd4.Title     = "MyAddin Command4";
+TSTWksAddinHeaderD.TSTAddinCmd4.Help      = "MyAddin Command4 Help";
+TSTWksAddinHeaderD.TSTAddinCmd4.ShortHelp = "MyAddin Command4 Short Help";
+TSTWksAddinHeaderD.TSTAddinCmd4.LongHelp  = "MyAddin Command4 Long Help";
+
+TSTWksAddinHeaderD.TSTAddinCmd5.Title     = "MyAddin Command5";
+TSTWksAddinHeaderD.TSTAddinCmd5.Help      = "MyAddin Command5 Help";
+TSTWksAddinHeaderD.TSTAddinCmd5.ShortHelp = "MyAddin Command5 Short Help";
+TSTWksAddinHeaderD.TSTAddinCmd5.LongHelp  = "MyAddin Command5 Long Help";
