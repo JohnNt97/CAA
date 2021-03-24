@@ -1,0 +1,262 @@
+<DSxDevCodeGen
+  ExtensionName="DialogDesigner"
+  EngineVersion="1.0">
+  <Content
+    Version="1.1"
+    HasDesign="true">
+    <DesignModel>
+      <RootWidget
+        Type="CATDlgDialog"
+        ID="9946c2cc-8eb9-4e8d-bfb8-8c6130784daf"
+        Version="1.0"
+        Name="BrowserViewsDlg"
+        UseOKButton="true"
+        UseOKApplyCloseButtons="true"
+        Title="Í¶Ó°ÊÓÍ¼Ô¤ÀÀ">
+        <Children
+          Type="List">
+          <Item
+            Type="CATDlgPushButton"
+            ID="70df1622-02e7-482d-9386-ce8b2381b3af"
+            Version="1.0"
+            Name="PushButtonReverse"
+            Title="·´Ïò">
+            <GridLayoutConstraint
+              Row="1"
+              Col="0"
+              Width="1"
+              Height="1">
+              <Anchor
+                AttachedToLeft="true"
+                AttachedToRight="false"
+                AttachedToTop="true"
+                AttachedToBottom="false"
+                ConstantWidth="false"
+                ConstantHeight="false" />
+            </GridLayoutConstraint>
+          </Item>
+          <Item
+            Type="CATDlgPushButton"
+            ID="3a7311c2-e503-4d09-970c-4ef75110fc64"
+            Version="1.0"
+            Name="PushButtonL30"
+            Title="Äæ15">
+            <GridLayoutConstraint
+              Row="1"
+              Col="1"
+              Width="1"
+              Height="1">
+              <Anchor
+                AttachedToLeft="true"
+                AttachedToRight="false"
+                AttachedToTop="true"
+                AttachedToBottom="false"
+                ConstantWidth="false"
+                ConstantHeight="false" />
+            </GridLayoutConstraint>
+          </Item>
+          <Item
+            Type="CATDlgPushButton"
+            ID="a2ce39d2-ceac-403e-ba78-2773f39a9feb"
+            Version="1.0"
+            Name="PushButtonR30"
+            Title="Ë³15">
+            <GridLayoutConstraint
+              Row="1"
+              Col="3"
+              Width="1"
+              Height="1">
+              <Anchor
+                AttachedToLeft="true"
+                AttachedToRight="false"
+                AttachedToTop="true"
+                AttachedToBottom="false"
+                ConstantWidth="false"
+                ConstantHeight="false" />
+            </GridLayoutConstraint>
+          </Item>
+          <Item
+            Type="CATDlgPushButton"
+            ID="62100ec8-2b4b-4a63-be8b-16f878e9e399"
+            Version="1.0"
+            Name="PushButtonR90"
+            Title="Ë³90">
+            <GridLayoutConstraint
+              Row="1"
+              Col="4"
+              Width="1"
+              Height="1">
+              <Anchor
+                AttachedToLeft="true"
+                AttachedToRight="false"
+                AttachedToTop="true"
+                AttachedToBottom="false"
+                ConstantWidth="false"
+                ConstantHeight="false" />
+            </GridLayoutConstraint>
+          </Item>
+          <Item
+            Type="CATDlgPushButton"
+            ID="d56b5226-d3ca-4c1c-8133-f60b643aa314"
+            Version="1.0"
+            Name="PushButtonL90"
+            Title="Äæ90">
+            <GridLayoutConstraint
+              Row="1"
+              Col="2"
+              Width="1"
+              Height="1">
+              <Anchor
+                AttachedToLeft="true"
+                AttachedToRight="false"
+                AttachedToTop="true"
+                AttachedToBottom="false"
+                ConstantWidth="false"
+                ConstantHeight="false" />
+            </GridLayoutConstraint>
+          </Item>
+          <Item
+            Type="CATDlgFrame"
+            ID="8cfde342-2420-467f-a571-e23302e13993"
+            Version="1.0"
+            Name="FrameView"
+            HideTitle="true"
+            Title="ÊÓÍ¼Ô¤ÀÀ">
+            <GridLayoutConstraint
+              Row="0"
+              Col="0"
+              Width="5"
+              Height="1">
+              <Anchor
+                AttachedToLeft="true"
+                AttachedToRight="true"
+                AttachedToTop="true"
+                AttachedToBottom="true"
+                ConstantWidth="false"
+                ConstantHeight="false" />
+            </GridLayoutConstraint>
+            <Children
+              Type="List">
+              <Item
+                Type="CATNavigation3DViewer"
+                ID="a1aa5fd4-4c74-4989-a166-b5df128ae642"
+                Version="1.0"
+                Name="Navi3DViewer"
+                Width="300"
+                Height="300"
+                HideTitle="true">
+                <GridLayoutConstraint
+                  Row="0"
+                  Col="0"
+                  Width="7"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="true"
+                    AttachedToTop="true"
+                    AttachedToBottom="true"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+            </Children>
+            <GridResizableData>
+              <ResizableRows
+                Type="List" />
+              <ResizableColumns
+                Type="List" />
+            </GridResizableData>
+          </Item>
+        </Children>
+        <GridResizableData>
+          <ResizableRows
+            Type="List" />
+          <ResizableColumns
+            Type="List" />
+        </GridResizableData>
+      </RootWidget>
+    </DesignModel>
+    <CodeModel>
+      <UserCodes>
+        <ClassIncludes>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </ClassIncludes>
+        <ClassMembers>
+          <UserCode><![CDATA[
+friend class ATOZPipeProjAnnoCmd;
+
+]]></UserCode>
+        </ClassMembers>
+        <ImplementIncludes>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </ImplementIncludes>
+        <DialogConstructor>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </DialogConstructor>
+        <DialogDefaultConstructor>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </DialogDefaultConstructor>
+        <DialogDestructor>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </DialogDestructor>
+        <PreBuildCode>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </PreBuildCode>
+        <BuildAdditionalCode>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </BuildAdditionalCode>
+        <UserActivateCode>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </UserActivateCode>
+        <UserDesactivateCode>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </UserDesactivateCode>
+        <UserCancelCode>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </UserCancelCode>
+        <UserImplementCode>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </UserImplementCode>
+      </UserCodes>
+      <Callbacks
+        Type="List" />
+    </CodeModel>
+    <FileInfo
+      Visibility="Local"
+      HandleResources="true"
+      ModuleResources="" />
+  </Content>
+</DSxDevCodeGen>
