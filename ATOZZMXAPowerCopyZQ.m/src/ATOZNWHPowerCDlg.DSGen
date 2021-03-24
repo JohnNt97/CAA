@@ -1,0 +1,1027 @@
+<DSxDevCodeGen
+  ExtensionName="DialogDesigner"
+  EngineVersion="1.0">
+  <Content
+    Version="1.1"
+    HasDesign="true">
+    <DesignModel>
+      <RootWidget
+        Type="CATDlgDialog"
+        ID="6b93a842-cede-4625-8584-0dc645a0b713"
+        Version="1.0"
+        Name="ATOZNWHPowerCDlg"
+        UseOKButton="true"
+        UseCancelButton="true"
+        Title="栈桥">
+        <Children
+          Type="List">
+          <Item
+            Type="CATDlgFrame"
+            ID="c73be9f4-bac4-46f8-b1fe-9043725162e9"
+            Version="1.0"
+            Name="FrameInput"
+            Title="输入元素">
+            <GridLayoutConstraint
+              Row="0"
+              Col="0"
+              Width="1"
+              Height="1">
+              <Anchor
+                AttachedToLeft="true"
+                AttachedToRight="true"
+                AttachedToTop="true"
+                AttachedToBottom="true"
+                ConstantWidth="false"
+                ConstantHeight="false" />
+            </GridLayoutConstraint>
+            <Children
+              Type="List">
+              <Item
+                Type="CATDlgSelectorList"
+                ID="d0e125bf-863e-4d61-a480-920374d43457"
+                Version="1.0"
+                Name="SelectorListCenterLine"
+                VisibleTextHeight="1"
+                VisibleTextWidth="12">
+                <GridLayoutConstraint
+                  Row="0"
+                  Col="1"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="true"
+                    AttachedToTop="true"
+                    AttachedToBottom="true"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgLabel"
+                ID="960c4fa8-815e-4283-a826-081a58ff63d5"
+                Version="1.0"
+                Name="Label2"
+                Title="前限制面    ">
+                <GridLayoutConstraint
+                  Row="1"
+                  Col="0"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="false"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgSelectorList"
+                ID="e62f755d-2965-4f61-8061-2fb39d2de58a"
+                Version="1.0"
+                Name="SelectorListHeadPlane"
+                VisibleTextHeight="1"
+                VisibleTextWidth="12">
+                <GridLayoutConstraint
+                  Row="1"
+                  Col="1"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="true"
+                    AttachedToTop="true"
+                    AttachedToBottom="true"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgLabel"
+                ID="5092fb2d-bc29-4322-a920-d7810ae25ca2"
+                Version="1.0"
+                Name="Label3"
+                Title="后限制面    ">
+                <GridLayoutConstraint
+                  Row="2"
+                  Col="0"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="false"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgSelectorList"
+                ID="e2bcbb2b-fe4d-477d-8a9b-ca0720096414"
+                Version="1.0"
+                Name="SelectorListTailPlane"
+                VisibleTextHeight="1"
+                VisibleTextWidth="12">
+                <GridLayoutConstraint
+                  Row="2"
+                  Col="1"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="true"
+                    AttachedToTop="true"
+                    AttachedToBottom="true"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgLabel"
+                ID="dc340f4d-a67a-4cd3-9499-592d783c0176"
+                Version="1.0"
+                Name="Label4"
+                Title="对称面     ">
+                <GridLayoutConstraint
+                  Row="3"
+                  Col="0"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="false"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgSelectorList"
+                ID="54f2b363-f1fc-484b-a66e-3919ed018570"
+                Version="1.0"
+                Name="SelectorListCenterPlane"
+                VisibleTextHeight="1"
+                VisibleTextWidth="12">
+                <GridLayoutConstraint
+                  Row="3"
+                  Col="1"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="true"
+                    AttachedToTop="true"
+                    AttachedToBottom="true"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgLabel"
+                ID="c31b43ba-20d9-4e89-a9f5-777da5ef3abe"
+                Version="1.0"
+                Name="Label1"
+                Title="顶面中心线    ">
+                <GridLayoutConstraint
+                  Row="0"
+                  Col="0"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="false"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+            </Children>
+            <GridResizableData>
+              <ResizableRows
+                Type="List" />
+              <ResizableColumns
+                Type="List" />
+            </GridResizableData>
+          </Item>
+          <Item
+            Type="CATDlgFrame"
+            ID="b39be4db-e396-4860-a81c-dcb397c7a1ff"
+            Version="1.0"
+            Name="FrameParam"
+            Title="参数">
+            <GridLayoutConstraint
+              Row="1"
+              Col="0"
+              Width="1"
+              Height="1">
+              <Anchor
+                AttachedToLeft="true"
+                AttachedToRight="true"
+                AttachedToTop="true"
+                AttachedToBottom="true"
+                ConstantWidth="false"
+                ConstantHeight="false" />
+            </GridLayoutConstraint>
+            <Children
+              Type="List">
+              <Item
+                Type="CATDlgLabel"
+                ID="3f157cab-0733-42d7-b012-d1bb9efb49bd"
+                Version="1.0"
+                Name="Label5"
+                Title="阵列个数  ">
+                <GridLayoutConstraint
+                  Row="0"
+                  Col="0"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="false"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgLabel"
+                ID="028afc27-81d5-41d3-b25e-428faa1beacd"
+                Version="1.0"
+                Name="Label6"
+                Title="屋顶角度  ">
+                <GridLayoutConstraint
+                  Row="1"
+                  Col="0"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="false"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgLabel"
+                ID="56122315-6def-4b94-ae66-504d11fbaa91"
+                Version="1.0"
+                Name="Label7"
+                Title="头部长度  ">
+                <GridLayoutConstraint
+                  Row="2"
+                  Col="0"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="false"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgLabel"
+                ID="89adb3d9-3e32-482b-87c3-d822181ab5c6"
+                Version="1.0"
+                Name="Label8"
+                Title="中间段长度 ">
+                <GridLayoutConstraint
+                  Row="3"
+                  Col="0"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="false"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgLabel"
+                ID="863de5fa-b4a4-41d1-bfd9-f1587a31bd40"
+                Version="1.0"
+                Name="Label9"
+                Title="栈桥宽度  ">
+                <GridLayoutConstraint
+                  Row="4"
+                  Col="0"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="false"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgLabel"
+                ID="349f8ac4-060c-4851-bc0b-6e24625a24e8"
+                Version="1.0"
+                Name="Label10"
+                Title="栈桥高度  ">
+                <GridLayoutConstraint
+                  Row="5"
+                  Col="0"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="false"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgSpinner"
+                ID="e012a657-6321-4be5-8805-a33a3b56d891"
+                Version="1.0"
+                Name="SpinnerZLCount"
+                Editable="true"
+                SpinnerType="DoublePrecision"
+                MaxRange="16">
+                <GridLayoutConstraint
+                  Row="0"
+                  Col="1"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="true"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgSpinner"
+                ID="f9d3c563-33d8-4770-90bd-fafeaf818575"
+                Version="1.0"
+                Name="SpinnerWDJD"
+                Editable="true"
+                SpinnerType="DoublePrecision"
+                MinRange="-180"
+                MaxRange="180"
+                StepCount="180">
+                <GridLayoutConstraint
+                  Row="1"
+                  Col="1"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="true"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgSpinner"
+                ID="34f90e5d-5832-4f75-ab18-136ff948fcc8"
+                Version="1.0"
+                Name="SpinnerWDLength"
+                Editable="true"
+                SpinnerType="DoublePrecision"
+                MaxRange="4000"
+                Unit="Millimeter">
+                <GridLayoutConstraint
+                  Row="2"
+                  Col="1"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="true"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgSpinner"
+                ID="1b5ea46b-7bdd-4e12-949c-c107546b8864"
+                Version="1.0"
+                Name="SpinnerZJLength"
+                Editable="true"
+                SpinnerType="DoublePrecision"
+                MaxRange="7000"
+                Unit="Millimeter">
+                <GridLayoutConstraint
+                  Row="3"
+                  Col="1"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="true"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgSpinner"
+                ID="7e75cc18-0b87-460f-9a07-054131286cb1"
+                Version="1.0"
+                Name="SpinnerWidth"
+                Editable="true"
+                SpinnerType="DoublePrecision"
+                MaxRange="5000"
+                Unit="Millimeter">
+                <GridLayoutConstraint
+                  Row="4"
+                  Col="1"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="true"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgSpinner"
+                ID="efeffaf8-c6c7-42ed-b5aa-55384c770bed"
+                Version="1.0"
+                Name="SpinnerHeight"
+                Editable="true"
+                SpinnerType="DoublePrecision"
+                MaxRange="4000"
+                Unit="Millimeter">
+                <GridLayoutConstraint
+                  Row="5"
+                  Col="1"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="true"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgLabel"
+                ID="61129fe4-c301-47f6-b8d2-d16990e4af95"
+                Version="1.0"
+                Name="Label11"
+                Title="  窗户长度  ">
+                <GridLayoutConstraint
+                  Row="0"
+                  Col="2"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="false"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgLabel"
+                ID="ec52c9bf-ca42-47f5-aa57-089f5298cb77"
+                Version="1.0"
+                Name="Label12"
+                Title="  窗户上下定位尺寸 ">
+                <GridLayoutConstraint
+                  Row="1"
+                  Col="2"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="false"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgLabel"
+                ID="9d582aaa-1ec2-42e8-a7ff-c7bf79a05de7"
+                Version="1.0"
+                Name="Label13"
+                Title="  窗户前后定位尺寸 ">
+                <GridLayoutConstraint
+                  Row="2"
+                  Col="2"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="false"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgLabel"
+                ID="ccbc5dd4-d934-4344-a7d0-9293dc904a73"
+                Version="1.0"
+                Name="Label14"
+                Title="  屋顶半宽度   ">
+                <GridLayoutConstraint
+                  Row="3"
+                  Col="2"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="false"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgLabel"
+                ID="a7ea6fe6-2739-46f4-8eee-9888b3d86992"
+                Version="1.0"
+                Name="Label15"
+                Title="  窗户宽度   ">
+                <GridLayoutConstraint
+                  Row="4"
+                  Col="2"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="false"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgLabel"
+                ID="86462a38-1c69-40b0-ad10-9000f3f9f3f3"
+                Version="1.0"
+                Name="Label16"
+                Title="  壁厚    ">
+                <GridLayoutConstraint
+                  Row="5"
+                  Col="2"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="false"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgSpinner"
+                ID="fdbf2b4e-8389-4dc8-8c1e-82adb48ccd7c"
+                Version="1.0"
+                Name="SpinnerWinHeight"
+                Editable="true"
+                SpinnerType="DoublePrecision"
+                MaxRange="2000"
+                Unit="Millimeter">
+                <GridLayoutConstraint
+                  Row="0"
+                  Col="3"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="true"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgSpinner"
+                ID="06905226-def8-48a9-b756-ffc1d18cf3c6"
+                Version="1.0"
+                Name="SpinnerWinUDloc"
+                Editable="true"
+                SpinnerType="DoublePrecision"
+                MaxRange="2000"
+                Unit="Millimeter">
+                <GridLayoutConstraint
+                  Row="1"
+                  Col="3"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="true"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgSpinner"
+                ID="9463a064-6e5f-4f7a-8dd6-66fe2da8ea34"
+                Version="1.0"
+                Name="SpinnerWinFBLoc"
+                Editable="true"
+                SpinnerType="DoublePrecision"
+                MaxRange="1000"
+                Unit="Millimeter">
+                <GridLayoutConstraint
+                  Row="2"
+                  Col="3"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="true"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgSpinner"
+                ID="6f2f7b64-14fa-41ca-89fb-52681a6e2beb"
+                Version="1.0"
+                Name="SpinnerWDHalfWid"
+                Editable="true"
+                SpinnerType="DoublePrecision"
+                MaxRange="3000"
+                Unit="Millimeter">
+                <GridLayoutConstraint
+                  Row="3"
+                  Col="3"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="true"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgSpinner"
+                ID="b13a276c-36db-48fc-827d-d48b90eecb1b"
+                Version="1.0"
+                Name="SpinnerWinWidth"
+                Editable="true"
+                SpinnerType="DoublePrecision"
+                MaxRange="1000"
+                Unit="Millimeter">
+                <GridLayoutConstraint
+                  Row="4"
+                  Col="3"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="true"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgSpinner"
+                ID="c5c114e9-cec2-484f-8719-59a200b66f31"
+                Version="1.0"
+                Name="SpinnerWall"
+                Editable="true"
+                SpinnerType="DoublePrecision"
+                MaxRange="100"
+                Unit="Millimeter">
+                <GridLayoutConstraint
+                  Row="5"
+                  Col="3"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="true"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+            </Children>
+            <GridResizableData>
+              <ResizableRows
+                Type="List" />
+              <ResizableColumns
+                Type="List" />
+            </GridResizableData>
+          </Item>
+          <Item
+            Type="CATDlgFrame"
+            ID="bb7c081e-17b2-4d35-91f7-bc6452fcc0f2"
+            Version="1.0"
+            Name="FrameLog"
+            HideTitle="true"
+            HideFrame="true"
+            Title="Frame4">
+            <GridLayoutConstraint
+              Row="2"
+              Col="0"
+              Width="1"
+              Height="1">
+              <Anchor
+                AttachedToLeft="true"
+                AttachedToRight="true"
+                AttachedToTop="true"
+                AttachedToBottom="true"
+                ConstantWidth="false"
+                ConstantHeight="false" />
+            </GridLayoutConstraint>
+            <Children
+              Type="List">
+              <Item
+                Type="CATDlgEditor"
+                ID="48f6f055-d092-4f1a-8339-6eacce33db9d"
+                Version="1.0"
+                Name="EditorInstructions"
+                ReadOnly="true"
+                MultiLine="true"
+                VisibleTextHeight="8"
+                VisibleTextWidth="15">
+                <GridLayoutConstraint
+                  Row="1"
+                  Col="0"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="true"
+                    AttachedToTop="true"
+                    AttachedToBottom="true"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgLabel"
+                ID="e538710d-1e6e-4617-a6ba-559b9d005e82"
+                Version="1.0"
+                Name="LabelLog"
+                Title="LabelLog">
+                <GridLayoutConstraint
+                  Row="2"
+                  Col="0"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="false"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgCheckButton"
+                ID="6fb637bb-484f-4e81-b25f-256ab34a3106"
+                Version="1.0"
+                Name="CheckButton"
+                Title="重复">
+                <GridLayoutConstraint
+                  Row="0"
+                  Col="0"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="false"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+            </Children>
+            <GridResizableData>
+              <ResizableRows
+                Type="List" />
+              <ResizableColumns
+                Type="List" />
+            </GridResizableData>
+          </Item>
+          <Item
+            Type="CATDlgFrame"
+            ID="30a178c9-fb75-4998-a2a6-543ef3aad32c"
+            Version="1.0"
+            Name="FrameViewer"
+            HideTitle="true"
+            HideFrame="true"
+            Title="Frame3">
+            <GridLayoutConstraint
+              Row="0"
+              Col="1"
+              Width="1"
+              Height="3">
+              <Anchor
+                AttachedToLeft="true"
+                AttachedToRight="true"
+                AttachedToTop="true"
+                AttachedToBottom="true"
+                ConstantWidth="false"
+                ConstantHeight="false" />
+            </GridLayoutConstraint>
+            <Children
+              Type="List">
+              <Item
+                Type="CATNavigation3DViewer"
+                ID="47ec291e-2b0b-48a4-8779-68a2f8f4bd2b"
+                Version="1.0"
+                Name="Nav3DViewerModel"
+                Width="500"
+                Height="400"
+                HideTitle="true"
+                HideFrame="true">
+                <GridLayoutConstraint
+                  Row="0"
+                  Col="0"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="true"
+                    AttachedToTop="true"
+                    AttachedToBottom="true"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+            </Children>
+            <GridResizableData>
+              <ResizableRows
+                Type="List" />
+              <ResizableColumns
+                Type="List" />
+            </GridResizableData>
+          </Item>
+        </Children>
+        <GridResizableData>
+          <ResizableRows
+            Type="List" />
+          <ResizableColumns
+            Type="List" />
+        </GridResizableData>
+      </RootWidget>
+    </DesignModel>
+    <CodeModel>
+      <UserCodes>
+        <ClassIncludes>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </ClassIncludes>
+        <ClassMembers>
+          <UserCode><![CDATA[
+friend class ATOZNWHPowerCCmd;
+
+]]></UserCode>
+        </ClassMembers>
+        <ImplementIncludes>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </ImplementIncludes>
+        <DialogConstructor>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </DialogConstructor>
+        <DialogDefaultConstructor>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </DialogDefaultConstructor>
+        <DialogDestructor>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </DialogDestructor>
+        <PreBuildCode>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </PreBuildCode>
+        <BuildAdditionalCode>
+          <UserCode><![CDATA[
+this->SetGridColumnResizable(0, 1);
+this->SetGridColumnResizable(1, 1);
+this->SetGridRowResizable(0, 1);
+this->SetGridRowResizable(1, 1);
+this->SetGridRowResizable(2, 1);
+
+_FrameInput->SetGridColumnResizable(1, 1);
+
+_FrameParam->SetGridColumnResizable(1, 1);
+_FrameParam->SetGridColumnResizable(3, 1);
+
+_FrameLog->SetGridColumnResizable(0, 1);
+_FrameLog->SetGridRowResizable(0, 1);
+
+_FrameViewer->SetGridColumnResizable(0, 1);
+_FrameViewer->SetGridRowResizable(0, 1);
+
+
+
+_SelectorListCenterLine->SetLine("No Selection");
+int ArraySel[1] = { 0 };
+_SelectorListCenterLine->SetSelect(ArraySel, 1);
+
+_SelectorListHeadPlane->SetLine("No Selection");
+_SelectorListTailPlane->SetLine("No Selection");
+_SelectorListCenterPlane->SetLine("No Selection");
+
+_Nav3DViewerModel->SetBackgroundColor(0.235294f, 0.4f, 0.501961f);
+
+_CheckButton->SetState(CATDlgUncheck);
+
+
+
+]]></UserCode>
+        </BuildAdditionalCode>
+        <UserActivateCode>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </UserActivateCode>
+        <UserDesactivateCode>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </UserDesactivateCode>
+        <UserCancelCode>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </UserCancelCode>
+        <UserImplementCode>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </UserImplementCode>
+      </UserCodes>
+      <Callbacks
+        Type="List" />
+    </CodeModel>
+    <FileInfo
+      Visibility="Local"
+      HandleResources="true"
+      ModuleResources="" />
+  </Content>
+</DSxDevCodeGen>
